@@ -135,7 +135,8 @@ html {
 #region-main .tnt video,
 #region-main .tnt .wp-caption {
 	max-width: 100%;
-	border: none
+	border: none;
+	margin-top: 3rem;
 }
 #region-main .tnt img {
 	height: auto;
@@ -2397,7 +2398,7 @@ button.close {
 	z-index: 0
 }
 #region-main .tnt .bar-nav-tnt h2 {
-	color: #fff;
+	color: #fff !important;
 	font-weight: 400;
 	font-size: 20px;
 	font-size: 2rem;
@@ -2511,9 +2512,8 @@ button.close {
 }
 #region-main .tnt .video-tnt h2 {
 	font-weight: 500;
-	margin-bottom: 30px;
 	margin-bottom: 3rem;
-	color: #000
+	color: #000 !important
 }
 #region-main .tnt .collapse {
 	display: none
@@ -2823,3 +2823,124 @@ body{
 	
 }
 
+/*custom colors*/
+
+
+/*suplementacion*/
+#region-main .tnt#suplementacion .bar-nav-tnt {
+    background: #411657;
+}
+
+#suplementacion .with-nav-tabs.panel-default .nav-tabs>li.active>a, #suplementacion .with-nav-tabs.panel-default .nav-tabs>li.active>a:hover, #suplementacion .with-nav-tabs.panel-default .nav-tabs>li.active>a:focus{
+  color: #411657 !important;
+}
+
+#region-main .tnt#suplementacion .nav-footer-tnt:before{
+  background: #411657;
+}
+
+#region-main .tnt#suplementacion .nav-footer-tnt a{
+  border: 1px solid #411657;
+    color: #411657;
+}
+
+#region-main .tnt#suplementacion .nav-footer-tnt a:hover{
+  background: #411657;
+  color:#ffffff;
+}
+
+#region-main .tnt#suplementacion .bar-nav-tnt:after{
+  background: #764193;
+}
+
+#suplementacion .color-blue{
+  color: #411657;
+}
+
+#region-main .tnt#suplementacion .dropdown-menu>li>a:hover, #region-main .tnt#suplementacion .dropdown-menu>li>a:focus{
+  color: #411657;
+}
+
+#region-main .tnt#suplementacion .bt-white{
+  color: #411657;
+  border: 1px solid #411657;
+}
+
+#region-main .tnt#suplementacion .nav-tnt li.titulo-nav-tnt h3{
+  color: #411657;
+}
+
+#region-main .tnt#suplementacion .nav-tnt li.titulo-nav-tnt{
+  border-top: 1px solid #411657;
+    border-bottom: 1px solid #411657;
+}
+
+#region-main .tnt#suplementacion .nav-tnt li a span{
+  color: #411657;
+}
+
+#region-main .tnt#suplementacion .nav-tnt li:hover{
+  background: #411657;
+}
+
+
+/**/
+#region-main .tnt#profesional-critico .bar-nav-tnt {
+    background: #636363;
+}
+
+#cuidado-critico .with-nav-tabs.panel-default .nav-tabs>li.active>a, #profesional-critico .with-nav-tabs.panel-default .nav-tabs>li.active>a:hover, #profesional-critico .with-nav-tabs.panel-default .nav-tabs>li.active>a:focus{
+  color: #636363 !important;
+}
+
+#region-main .tnt#profesional-critico .nav-footer-tnt:before{
+  background: #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-footer-tnt a{
+  border: 1px solid #636363;
+    color: #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-footer-tnt a:hover{
+  background: #636363;
+  color:#ffffff;
+}
+
+#region-main .tnt#profesional-critico .bar-nav-tnt:after{
+  background: #636363;
+}
+
+#profesional-critico .color-blue{
+  color: #636363;
+}
+
+#region-main .tnt#profesional-critico .dropdown-menu>li>a:hover, #region-main .tnt#profesional-critico .dropdown-menu>li>a:focus{
+  color: #636363;
+}
+
+#region-main .tnt#profesional-critico .bt-white{
+  color: #636363;
+  border: 1px solid #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-tnt li.titulo-nav-tnt h3{
+  color: #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-tnt li.titulo-nav-tnt{
+  border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-tnt li a span{
+  color: #636363;
+}
+
+#region-main .tnt#profesional-critico .nav-tnt li:hover{
+  background: #636363;
+}
+
+#nav-icon3::after{
+  content: "Módulos TNT" !important;
+}
